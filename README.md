@@ -2,8 +2,6 @@
 
 Solução mobile desenvolvida para o Desafio Técnico de Desenvolvimento Mobile. O aplicativo atende às necessidades de equipes em campo durante atividades de roteirização, leitura de medidores de utilidades, registro fotográfico, geolocalização e sincronização resiliente de dados.
 
----
-
 ## 1. Instruções de Execução
 
 ### Pré-requisitos
@@ -18,7 +16,7 @@ Para instalar as dependências do projeto, acesse a pasta raiz e execute:
 npm install
 ```
 
-### Execução em Ambiente Web (Recomendado para Avaliação)
+### Execução em Ambiente Web
 
 Para executar a aplicação em modo web no navegador:
 
