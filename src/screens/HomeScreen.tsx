@@ -42,7 +42,7 @@ export const HomeScreen: React.FC = () => {
           activeOpacity={0.8}
         >
           <Text style={[styles.tabText, activeTab === 'list' && styles.activeTabText]}>
-            📋 Lista de Pontos ({route.points.length})
+            Lista de Pontos ({route.points.length})
           </Text>
         </TouchableOpacity>
 
@@ -52,7 +52,7 @@ export const HomeScreen: React.FC = () => {
           activeOpacity={0.8}
         >
           <Text style={[styles.tabText, activeTab === 'map' && styles.activeTabText]}>
-            🗺️ Percurso & Mapa
+            Percurso & Mapa
           </Text>
         </TouchableOpacity>
       </View>
@@ -71,7 +71,7 @@ export const HomeScreen: React.FC = () => {
         )}
 
         <TouchableOpacity style={styles.resetButton} onPress={resetRoute} activeOpacity={0.8}>
-          <Text style={styles.resetButtonText}>🔄 Resetar Rota para Teste Inicial</Text>
+          <Text style={styles.resetButtonText}>Resetar Rota para Teste Inicial</Text>
         </TouchableOpacity>
       </ScrollView>
     </View>

@@ -26,7 +26,7 @@ export const RouteMap: React.FC<RouteMapProps> = ({ points, onSelectPoint }) => 
   return (
     <View style={styles.container}>
       <View style={styles.mapHeader}>
-        <Text style={styles.mapTitle}>🗺️ Percurso da Rota Aldeota</Text>
+        <Text style={styles.mapTitle}>Percurso da Rota Aldeota</Text>
         <Text style={styles.mapSubtitle}>Sequência oficial de atendimento em campo</Text>
       </View>
 

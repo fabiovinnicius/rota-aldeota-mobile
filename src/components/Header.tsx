@@ -75,35 +75,36 @@ const styles = StyleSheet.create({
   topRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    marginBottom: 20,
+    alignItems: 'center',
+    marginBottom: 16,
   },
   titleContainer: {
     flex: 1,
+    marginRight: 12,
   },
   appBadge: {
     color: '#38bdf8',
     fontSize: 11,
     fontWeight: '700',
     letterSpacing: 1.2,
-    marginBottom: 4,
+    marginBottom: 2,
   },
   title: {
     color: '#f8fafc',
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: '800',
   },
   subtitle: {
     color: '#94a3b8',
-    fontSize: 13,
+    fontSize: 12,
     marginTop: 2,
   },
   networkBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: 20,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 14,
     borderWidth: 1,
   },
   onlineBadge: {
@@ -115,10 +116,10 @@ const styles = StyleSheet.create({
     borderColor: '#f59e0b',
   },
   networkDot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-    marginRight: 6,
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    marginRight: 4,
   },
   onlineDot: {
     backgroundColor: '#34d399',
@@ -127,7 +128,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fbbf24',
   },
   networkText: {
-    fontSize: 11,
+    fontSize: 9.5,
     fontWeight: '800',
     color: '#f8fafc',
     letterSpacing: 0.5,

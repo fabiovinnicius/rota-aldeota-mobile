@@ -69,7 +69,7 @@ export const PointCard: React.FC<PointCardProps> = ({ point, onSelect }) => {
       </View>
 
       <View style={styles.addressBox}>
-        <Text style={styles.referencePoint}>📍 Ref: {point.referencePoint}</Text>
+        <Text style={styles.referencePoint}>Ref: {point.referencePoint}</Text>
         <Text style={styles.addressText}>{point.address}</Text>
       </View>
     </TouchableOpacity>

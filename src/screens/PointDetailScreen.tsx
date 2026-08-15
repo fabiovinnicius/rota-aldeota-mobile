@@ -202,7 +202,7 @@ export const PointDetailScreen: React.FC<PointDetailScreenProps> = ({ point, onB
             disabled={loadingPhoto}
           >
             <Text style={styles.actionButtonText}>
-              {loadingPhoto ? 'Abrindo Câmera...' : '📷 Tirar Foto'}
+              {loadingPhoto ? 'Abrindo Câmera...' : 'Tirar Foto'}
             </Text>
           </TouchableOpacity>
         )}
@@ -225,7 +225,7 @@ export const PointDetailScreen: React.FC<PointDetailScreenProps> = ({ point, onB
             disabled={loadingLocation}
           >
             <Text style={styles.actionButtonTextSecondary}>
-              {loadingLocation ? 'Buscando GPS...' : '📍 Obter Localização Atual'}
+              {loadingLocation ? 'Buscando GPS...' : 'Obter Localização Atual'}
             </Text>
           </TouchableOpacity>
         )}
