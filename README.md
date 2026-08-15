@@ -85,21 +85,3 @@ src/
 ├── screens/      # Telas principais da aplicação
 └── utils/        # Funções utilitárias e regras de validação
 ```
-
-- **Qualidade de Código**: O projeto foi desenvolvido com a premissa de manter o código 100% limpo, sem nenhuma linha de código comentada no repositório.
-- **Padronização de Commits**: Histórico de commits mantido em inglês seguindo a convenção de Conventional Commits.
-
----
-
-## 6. Diferenciais Implementados e Evolução Futura
-
-### Diferenciais Implementados
-- **Visualização do Percurso**: Exibição da sequência ordenada dos pontos de atendimento e representação do trajeto no bairro Aldeota.
-- **Alternador de Rede em Tempo Real**: Controle de estado online/offline integrado para teste direto do comportamento da aplicação.
-- **Validação de Leitura**: Verificação de campos obrigatórios, valores numéricos e alerta para leituras inferiores à leitura anterior.
-- **Testes Automatizados**: Suíte de testes unitários para as regras de validação.
-
-### Propostas de Evolução Futura
-- **Leitura Automática por OCR**: Integração com biblioteca de visão computacional para extração automática dos números do medidor a partir da foto.
-- **Compressão de Imagens Nativa**: Processamento e redução do tamanho de arquivo das fotos antes do envio ao servidor.
-- **Sincronização em Segundo Plano**: Utilização de background tasks para tentativa de envio automático assim que a conexão for restabelecida.
